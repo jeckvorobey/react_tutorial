@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 // import Main from "./components/Main";
 import {Main, Counter,} from "./components/props/Main";
+import MainEvents from "./components/evnts/MainEvents";
 
 function App () {
   return (
@@ -9,6 +10,8 @@ function App () {
       <Main>
         <Counter />
       </Main>
+      <hr/>
+      <MainEvents />
     </div>
   );
 }
