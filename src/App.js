@@ -3,6 +3,7 @@ import './App.css';
 // import Main from "./components/Main";
 import {Main, Counter,} from "./components/props/Main";
 import MainEvents from "./components/evnts/MainEvents";
+import DynamicRender from "./components/DynamicRender/DynamicRender";
 
 function App () {
   return (
@@ -12,6 +13,8 @@ function App () {
       </Main>
       <hr/>
       <MainEvents />
+      <hr/>
+      <DynamicRender/>
     </div>
   );
 }
